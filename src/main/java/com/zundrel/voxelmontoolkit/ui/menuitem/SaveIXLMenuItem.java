@@ -30,7 +30,7 @@ public class SaveIXLMenuItem extends JMenuItem {
 			try {
 				mapper.writeValue(file, Main.voxelmonObject);
 			} catch (IOException e) {
-				Main.LOGGER.error("Could not save this IXL file.", e);
+				e.printStackTrace();
 			}
 		}
 	}

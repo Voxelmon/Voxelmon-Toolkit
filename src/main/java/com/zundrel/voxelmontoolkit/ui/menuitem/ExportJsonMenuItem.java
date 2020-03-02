@@ -41,7 +41,7 @@ public class ExportJsonMenuItem extends JMenuItem {
 			try {
 				mapper.writeValue(file, Main.voxelmonObject);
 			} catch (IOException e) {
-				Main.LOGGER.error("Could not export this JSON file.", e);
+				e.printStackTrace();
 			}
 		}
 	}

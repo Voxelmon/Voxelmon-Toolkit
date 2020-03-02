@@ -30,7 +30,7 @@ public class ImportJsonMenuItem extends JMenuItem {
 			try {
 				Main.voxelmonObject = mapper.readValue(file, VoxelmonObject.class);
 			} catch (IOException e) {
-				Main.LOGGER.error("Could not read this IXL file.", e);
+				e.printStackTrace();
 			}
 
 			Main.voxelmonPane.load();
