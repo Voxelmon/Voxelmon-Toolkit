@@ -28,13 +28,13 @@
             "friendship" : 70
         },
         "yield" : {
-			"hp" : 0,
+            "hp" : 0,
             "atk" : 0,
             "def" : 0,
             "spatk" : 0,
             "spdef" : 0,
             "speed" : 2
-		}
+        }
     },
     "moves" : {
         "learnable_moves" : [
@@ -45,10 +45,10 @@
                 "tackle",
                 "ember"
             ],
-			"7" : [
-				"punch",
-				"tackle"
-			]
+            "7" : [
+                "punch",
+                "tackle"
+            ]
         },
         "egg_moves" : [
             "scratch"
