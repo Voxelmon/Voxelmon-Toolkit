@@ -1,0 +1,67 @@
+{
+    "region" : "kanto",
+    "info" : {
+        "male_chance" : 50,
+        "level_rate" : "medium_fast",
+        "catch_rate" : 190,
+        "types" : [
+            "electric",
+            "dragon"
+        ]
+    },
+    "breeding" : {
+        "hatch_time_max" : 2826,
+        "hatch_time_min" : 2570,
+        "egg_groups" : [
+            "fairy",
+            "field"
+        ]
+    },
+    "stats" : {
+        "base" : {
+            "hp" : 0,
+            "atk" : 0,
+            "def" : 0,
+            "spatk" : 0,
+            "spdef" : 0,
+            "speed" : 2,
+            "friendship" : 70
+        },
+        "yield" : {
+			"hp" : 0,
+            "atk" : 0,
+            "def" : 0,
+            "spatk" : 0,
+            "spdef" : 0,
+            "speed" : 2
+		}
+    },
+    "moves" : {
+        "learnable_moves" : [
+            "headbutt"
+        ],
+        "level_moves" : {
+            "5" : [
+                "tackle",
+                "ember"
+            ],
+			"7" : [
+				"punch",
+				"tackle"
+			]
+        },
+        "egg_moves" : [
+            "scratch"
+        ],
+        "evolution_moves" : [
+            "tail_whip"
+        ]
+    },
+    "pokedex" : {
+        "regional_id" : 1,
+        "national_id" : 1,
+        "body_type" : "quadruped",
+        "height" : 0.7,
+        "weight" : 6.9
+    }
+}
